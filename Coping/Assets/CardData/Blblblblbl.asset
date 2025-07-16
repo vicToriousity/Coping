@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 109c46daa42c72242b423f83063985f0, type: 3}
-  m_Name: F Amplifier
+  m_Name: Blblblblbl
   m_EditorClassIdentifier: 
-  cardName: Amplifier
-  cardType: 01000000
-  health: 100
-  stamina: 3
-  masteryRank: 07000000
+  cardName: Blblbl
+  cardType: 
+  health: 0
+  stamina: 0
+  masteryRank: 00000000
   Sprite: {fileID: 0}
-  type: {fileID: 994223573, guid: 132358e9bf26b60458b731bf001e31db, type: 3}

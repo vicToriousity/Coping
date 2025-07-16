@@ -14,7 +14,7 @@ public class CardDisplay : MonoBehaviour
     public TMP_Text healthText;
     public TMP_Text staminaText;
     public TMP_Text rankText;
-    public Image[] typeImages;
+    public Sprite typeImage;
 
 
     void Start()
@@ -27,7 +27,8 @@ public class CardDisplay : MonoBehaviour
         nameText.text = cardData.cardName;
         healthText.text = cardData.health.ToString();
         staminaText.text = cardData.stamina.ToString();
-        rankText.text = cardData.masteryRank;
+        rankText.text = cardData.masteryRank + " Mastery";
+        typeImage = cardData.type;
 
     }
 }

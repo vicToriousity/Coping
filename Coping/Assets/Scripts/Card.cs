@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Recordamur
 {
@@ -11,13 +13,14 @@ namespace Recordamur
         public List<CardType> cardType;
         public int health;
         public int stamina;
-        public List<MasteryRank> masteryRank;
+        public List<MasteryRanks> masteryRank;
         public Sprite Sprite;
+        public Sprite type;
     }
 
     public enum CardType
     {
-        Attacker,
+        Attacker, 
 
         Buffer,
 
@@ -32,7 +35,7 @@ namespace Recordamur
         God
     }
 
-    public enum MasteryRank
+    public enum MasteryRanks
     {
         Noble,
 
