@@ -15,6 +15,6 @@ MonoBehaviour:
   cardName: Noble Veiler
   cardType: 03000000
   health: 400
-  stamina: 40
+  stamina: 35
   masteryRank: 00000000
   Sprite: {fileID: 0}
