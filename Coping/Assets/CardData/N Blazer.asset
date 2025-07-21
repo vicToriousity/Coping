@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 109c46daa42c72242b423f83063985f0, type: 3}
   m_Name: N Blazer
   m_EditorClassIdentifier: 
-  cardName: N Blazer
+  cardName: Blazer
   cardType: 00000000
   health: 500
   stamina: 30
-  masteryRank: 00000000
+  masteryRank: Noble
   Sprite: {fileID: 0}
+  type: {fileID: 0}

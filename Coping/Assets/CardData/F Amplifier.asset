@@ -16,6 +16,6 @@ MonoBehaviour:
   cardType: 01000000
   health: 100
   stamina: 3
-  masteryRank: 07000000
+  masteryRank: F-rank
   Sprite: {fileID: 0}
   type: {fileID: 994223573, guid: 132358e9bf26b60458b731bf001e31db, type: 3}

@@ -13,7 +13,7 @@ namespace Recordamur
         public List<CardType> cardType;
         public int health;
         public int stamina;
-        public List<MasteryRanks> masteryRank;
+        public string masteryRank;
         public Sprite Sprite;
         public Sprite type;
     }
@@ -33,24 +33,5 @@ namespace Recordamur
         Unusual,
 
         God
-    }
-
-    public enum MasteryRanks
-    {
-        Noble,
-
-        S,
-
-        A,
-
-        B,
-
-        C,
-
-        D,
-
-        E,
-
-        F
     }
 }
