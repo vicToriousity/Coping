@@ -10,6 +10,15 @@ public class DeckManager : MonoBehaviour
 
     private int currentIndex = 0;
 
+    private void Start()
+    {
+        // Load all card assets from CardData
+        Card[] cards = Resources.LoadAll<Card>("Cards");
+
+        // Add loaded cards to allCards list
+        allCards.AddRange(cards);
+    }
+
     public void DrawCard(HandManager handManager)
     {
         if (allCards.Count == 0)
