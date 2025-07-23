@@ -6,6 +6,7 @@ using System;
 
 public class HandManager : MonoBehaviour
 {
+    public DeckManager deckManager;
     // Assign prefab in Inspector
     public GameObject cardPrefab;
     // Root of hand position
@@ -22,19 +23,17 @@ public class HandManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AddCardToHand();
-        AddCardToHand();
-        AddCardToHand();
-        AddCardToHand();
-        AddCardToHand();
-        AddCardToHand();
+        
     }
 
-    public void AddCardToHand()
+    public void AddCardToHand(Card cardData)
     {
         //Instantiate card
         GameObject newCard = Instantiate(cardPrefab, handTransform.position, Quaternion.identity, handTransform);
         cardsInHand.Add(newCard);
+
+        //set CardData of instantiated card
+        newCard.GetComponent<CardDisplay>().cardData = cardData;
 
         UpdateHandVisuals();
     }
